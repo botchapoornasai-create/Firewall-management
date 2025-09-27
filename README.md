@@ -17,7 +17,7 @@ Basically the status will be inactive and there are no pre rules configured.
 
 
 So we here we are going to block the incoming traffic of the service Telnet which runs on port 23 and the command is 
-sudo ufw deny telnet or sudo ufw deny 23 
+"sudo ufw deny telnet" or "sudo ufw deny 23" 
 we can also mention the specific protocl like TCP/UDP -- sudo ufw deny telnet/tcp
 <img width="1920" height="1042" alt="image" src="https://github.com/user-attachments/assets/449c634f-1106-4a98-a707-8b402015b404" />
 
